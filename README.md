@@ -10,11 +10,11 @@ Instructions:
 3. Run the server from root folder of the downloaded respoitory using the following command- node app.js
 
 API Endpoints:
-1. /login:
+1. localhost:3000/login:
    Request type: GET, Parameters: email, password. 
    Only accepted login details are: testuser, test_password
    Response: 200 Ok if provided details matches, else 404 
-2. /userprofile: 
+2. localhost:3000/userprofile: 
    Request type: GET
    Response:
     {
